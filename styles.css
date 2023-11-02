@@ -1,0 +1,54 @@
+body {
+  background-color: #000;
+  margin: 0;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  font-family: "Agbalumo", serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  max-width: 280px;
+  text-align: center;
+}
+
+.love {
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0;
+  padding: 2rem;
+}
+
+.quote {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.waterfall {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
